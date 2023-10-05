@@ -3,7 +3,7 @@ import { IconBrandFacebook, IconBrandGithub, IconBrandTwitter } from "@tabler/ic
 import Button from "./components/Button"
 import Card from "./components/Card"
 
-function App() {
+function FirstApp() {
   return (
     <div className="bg-slate-900 grid place-content-center min-h-screen">
       <div className="flex gap-x-2">
@@ -24,7 +24,7 @@ function App() {
   )
 }
 
-function App2() {
+function SecondApp() {
   return (
     <div className="bg-slate-100 text-slate-800 tracking-tight antialiased flex items-center justify-center min-h-screen">
       <div className="max-w-md w-full">
@@ -40,4 +40,4 @@ function App2() {
   )
 }
 
-export default App2
+export default SecondApp
